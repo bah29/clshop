@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Apprendre le HTML & CSS</title>
+
+<style>
+
+	body {
+		background-color: rgb(14, 9, 83);
+	}
+	.content {
+		background-color: rgba(152, 145, 172, 0.6);
+		width: 500px;
+		margin: auto;
+		margin-top: 150px;
+		padding: 20px;
+		border-radius: 20px;
+		border: 3px solid white;
+	}
+	.content h1 {
+		text-align: center;
+	}
+	.content label {
+		font-weight: bold;
+	}
+	.content  .champ {
+		width: 480px;
+		padding: 10px;
+	}
+	.content button {
+		background-color: rgb(82, 174, 87);
+		width: 500px;
+		padding: 10px;
+		text-transform: uppercase;
+		color: #FFF;
+	}
+	.top img {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+	}
+	.top {
+		margin-right: 150px;
+		margin-left: 150px;
+	}
+
+</style>
+</head>
+
+<body>
+	<!-- Formulaire de connexion -->
+	<div class="content">
+		<div class="top">
+			<img src="img/blog/profile.jpg" alt="">
+		</div>
+
+		<form>
+			<label>Nom d'utilisateur :</label> <br>
+			<input class="champ" type="text" placeholder="Entrer nom utilisateur ou email"><br><br>
+			<label>Mot de passe :</label><br>
+			<input class="champ" type="password" placeholder="Entrer mot de passe"><br><br>
+
+			<input type="checkbox"> Se Souvenir de moi
+			<span style="float: right;">Mot de passe oublier ?</span>
+			<br><br>
+
+			<button>Se Connecter</button>
+		</form>
+	</div>
+</body>
+</html>

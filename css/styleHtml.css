@@ -1,0 +1,54 @@
+/*Initialisation de la page*/
+html,
+body {
+	min-width: 300px;
+	color: #4D4E53;
+	background-color: #FFF;
+	font-family: 'Open Sans', Arial, sans-serif;
+	line-height: 1.5;
+}
+
+/*Design du menu latéral*/
+#sidebar {
+	position: fixed;
+	width: 300px;
+	top: 0;
+	left: 0;
+	height: 100%;
+	border-right: solid;
+	border-color: rgba(0, 22, 22, 0.4);
+}
+#sidebar h2 {
+	text-align: center;
+	font-weight: thin;
+	color: black;
+	font-size: 1.2em;
+	margin: 10px;
+}
+
+#sidebar ul {
+	height: 88%;
+	padding: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#sidebar li {
+	color: #4D4E53;
+	position: relative;
+	list-style: none;
+	width: 100%;
+	border-top: 1px solid;
+}
+#sidebar a {
+	display: block;
+	padding: 10px 30px;
+	color: #4D4E53;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*Design du contenu de la page*/
+.doc {
+	width: calc(100% - 300px);
+	margin-left: 300px;
+}
